@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../doc/otp_doc.css" type="text/css">
+<title>Erlang -- </title>
+</head>
+<body bgcolor="white" text="#000000" link="#0000ff" vlink="#ff00ff" alink="#ff0000"><div id="container">
+<script id="js" type="text/javascript" language="JavaScript" src="../../../../doc/js/flipmenu/flipmenu.js"></script><script id="js2" type="text/javascript" src="../../../../doc/js/erlresolvelinks.js"></script><script language="JavaScript" type="text/javascript">
+            <!--
+              function getWinHeight() {
+                var myHeight = 0;
+                if( typeof( window.innerHeight ) == 'number' ) {
+                  //Non-IE
+                  myHeight = window.innerHeight;
+                } else if( document.documentElement && ( document.documentElement.clientWidth ||
+                                                         document.documentElement.clientHeight ) ) {
+                  //IE 6+ in 'standards compliant mode'
+                  myHeight = document.documentElement.clientHeight;
+                } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                  //IE 4 compatible
+                  myHeight = document.body.clientHeight;
+                }
+                return myHeight;
+              }
+
+              function setscrollpos() {
+                var objf=document.getElementById('loadscrollpos');
+                 document.getElementById("leftnav").scrollTop = objf.offsetTop - getWinHeight()/2;
+              }
+
+              function addEvent(obj, evType, fn){
+                if (obj.addEventListener){
+                obj.addEventListener(evType, fn, true);
+                return true;
+              } else if (obj.attachEvent){
+                var r = obj.attachEvent("on"+evType, fn);
+                return r;
+              } else {
+                return false;
+              }
+             }
+
+             addEvent(window, 'load', setscrollpos);
+
+             //--></script><div id="leftnav"><div class="innertube">
+<img alt="Erlang logo" src="../../../../doc/erlang-logo.png"><br><small><a href="users_guide.html">User's Guide</a><br><a href="index.html">Reference Manual</a><br><a href="release_notes.html">Release Notes</a><br><a href="../pdf/stdlib-1.19.3.pdf">PDF</a><br><a href="../../../../doc/index.html">Top</a></small><p><strong>STDLIB</strong><br><strong>Release Notes</strong><br><small>Version 1.19.3</small></p>
+<br><a href="javascript:openAllFlips()">Expand All</a><br><a href="javascript:closeAllFlips()">Contract All</a><p><small><strong>Chapters</strong></small></p>
+<ul class="flipMenu" imagepath="../../../../doc/js/flipmenu"><li id="no" title="STDLIB Release Notes" expanded="false">STDLIB Release Notes<ul>
+<li><a href="notes.html">
+              Top of chapter
+            </a></li>
+<li title="STDLIB 1.19.3"><a href="notes.html#idp35823280">STDLIB 1.19.3</a></li>
+<li title="STDLIB 1.19.2"><a href="notes.html#idp38780896">STDLIB 1.19.2</a></li>
+<li title="STDLIB 1.19.1"><a href="notes.html#idp35587888">STDLIB 1.19.1</a></li>
+<li title="STDLIB 1.19"><a href="notes.html#idp35606048">STDLIB 1.19</a></li>
+<li title="STDLIB 1.18.3"><a href="notes.html#idp35759408">STDLIB 1.18.3</a></li>
+<li title="STDLIB 1.18.2"><a href="notes.html#idp35762976">STDLIB 1.18.2</a></li>
+<li title="STDLIB 1.18.1"><a href="notes.html#idp38970496">STDLIB 1.18.1</a></li>
+<li title="STDLIB 1.18"><a href="notes.html#idp39001408">STDLIB 1.18</a></li>
+<li title="STDLIB 1.17.5"><a href="notes.html#idp36646720">STDLIB 1.17.5</a></li>
+<li title="STDLIB 1.17.4"><a href="notes.html#idp37848320">STDLIB 1.17.4</a></li>
+<li title="STDLIB 1.17.3"><a href="notes.html#idp38810688">STDLIB 1.17.3</a></li>
+<li title="STDLIB 1.17.2.1"><a href="notes.html#idp38827312">STDLIB 1.17.2.1</a></li>
+<li title="STDLIB 1.17.2"><a href="notes.html#idp38831056">STDLIB 1.17.2</a></li>
+<li title="STDLIB 1.17.1"><a href="notes.html#idp29861552">STDLIB 1.17.1</a></li>
+<li title="STDLIB 1.17"><a href="notes.html#idp34023152">STDLIB 1.17</a></li>
+<li title="STDLIB 1.16.5"><a href="notes.html#idp36701792">STDLIB 1.16.5</a></li>
+<li title="STDLIB 1.16.4"><a href="notes.html#idp36734048">STDLIB 1.16.4</a></li>
+<li title="STDLIB 1.16.3.1"><a href="notes.html#idp33188368">STDLIB 1.16.3.1</a></li>
+<li title="STDLIB 1.16.3"><a href="notes.html#idp33193840">STDLIB 1.16.3</a></li>
+<li title="STDLIB 1.16.2"><a href="notes.html#idp33219840">STDLIB 1.16.2</a></li>
+<li title="STDLIB 1.16.1"><a href="notes.html#idp31008688">STDLIB 1.16.1</a></li>
+<li title="STDLIB 1.16"><a href="notes.html#idp31025488">STDLIB 1.16</a></li>
+<li title="STDLIB 1.15.5"><a href="notes.html#idp30355296">STDLIB 1.15.5</a></li>
+<li title="STDLIB 1.15.4"><a href="notes.html#idp34162256">STDLIB 1.15.4</a></li>
+<li title="STDLIB 1.15.3"><a href="notes.html#idp34185664">STDLIB 1.15.3</a></li>
+<li title="STDLIB 1.15.2"><a href="notes.html#idp34196688">STDLIB 1.15.2</a></li>
+<li title="STDLIB 1.15.1"><a href="notes.html#idp37746752">STDLIB 1.15.1</a></li>
+<li title="STDLIB 1.15"><a href="notes.html#idp37773504">STDLIB 1.15</a></li>
+<li title="STDLIB 1.14.5.3"><a href="notes.html#idp30176960">STDLIB 1.14.5.3</a></li>
+<li title="STDLIB 1.14.5.2"><a href="notes.html#idp28551920">STDLIB 1.14.5.2</a></li>
+<li title="STDLIB 1.14.5.1"><a href="notes.html#idp28555632">STDLIB 1.14.5.1</a></li>
+<li title="STDLIB 1.14.5"><a href="notes.html#idp28562336">STDLIB 1.14.5</a></li>
+<li title="STDLIB 1.14.4"><a href="notes.html#idp28591760">STDLIB 1.14.4</a></li>
+<li title="STDLIB 1.14.3.1"><a href="notes.html#idp26101488">STDLIB 1.14.3.1</a></li>
+<li title="STDLIB 1.14.3"><a href="notes.html#idp26111312">STDLIB 1.14.3</a></li>
+<li title="STDLIB 1.14.2.2"><a href="notes.html#idp26131984">STDLIB 1.14.2.2</a></li>
+<li title="STDLIB 1.14.2.1"><a href="notes.html#idp26139280">STDLIB 1.14.2.1</a></li>
+<li title="STDLIB 1.14.2"><a href="notes.html#idp26143616">STDLIB 1.14.2</a></li>
+<li title="STDLIB 1.14.1"><a href="notes.html#idp31894128">STDLIB 1.14.1</a></li>
+<li title="STDLIB 1.14"><a href="notes.html#idp31909632">STDLIB 1.14</a></li>
+<li title="STDLIB 1.13.12"><a href="notes.html#idp36526240">STDLIB 1.13.12</a></li>
+<li title="STDLIB 1.13.11"><a href="notes.html#idp36550720">STDLIB 1.13.11</a></li>
+<li title="STDLIB 1.13.10"><a href="notes.html#idp36565488">STDLIB 1.13.10</a></li>
+<li title="STDLIB 1.13.9"><a href="notes.html#idp36571760">STDLIB 1.13.9</a></li>
+<li title="STDLIB 1.13.8"><a href="notes.html#idp36592144">STDLIB 1.13.8</a></li>
+<li title="STDLIB 1.13.7"><a href="notes.html#idp36013776">STDLIB 1.13.7</a></li>
+<li title="STDLIB 1.13.6"><a href="notes.html#idp36026208">STDLIB 1.13.6</a></li>
+<li title="STDLIB 1.13.5"><a href="notes.html#idp36036816">STDLIB 1.13.5</a></li>
+<li title="STDLIB 1.13.4"><a href="notes.html#idp36060672">STDLIB 1.13.4</a></li>
+<li title="STDLIB 1.13.3"><a href="notes.html#idp39029280">STDLIB 1.13.3</a></li>
+<li title="STDLIB 1.13.2"><a href="notes.html#idp39049856">STDLIB 1.13.2</a></li>
+<li title="STDLIB 1.13.1"><a href="notes.html#idp39055264">STDLIB 1.13.1</a></li>
+</ul>
+</li></ul>
+</div></div>
+<div id="content">
+<div class="innertube">
+<div class="frontpage"></div>
+<center><h1>STDLIB Release Notes</h1></center>
+<center><h4>Version 1.19.3</h4></center>
+<center><h4>September 19, 2013</h4></center>
+</div>
+<div class="footer">
+<hr>
+<p>Copyright © 1997-2013 Ericsson AB. All Rights Reserved.</p>
+</div>
+</div>
+</div></body>
+</html>

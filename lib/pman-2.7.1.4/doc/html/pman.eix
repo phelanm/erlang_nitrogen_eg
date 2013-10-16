@@ -1,0 +1,15 @@
+%% 
+%% Search data file for pman 2.7.1.4
+%% generated September 19, 2013
+%% 
+{"pman.html", {function, {"pman", "pman"}},
+[
+  {"start", "start(", "start-0"},
+  {"start", "start(", "start-1"},
+  {"start_notimeout", "start_notimeout(", "start_notimeout-0"},
+  {"start_notimeout", "start_notimeout(", "start_notimeout-1"},
+  {"proc", "proc(", "proc-1"},
+  {"proc", "proc(", "proc-3"}
+]}.
+{"pman.html", {module, "pman"}, ["pman"]}.
+{notused, application, ["pman"]}.
